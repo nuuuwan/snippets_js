@@ -63,3 +63,6 @@ export default class $1 extends Component {
   'prefix': 'this bound function'
   'body': 'this.$1.bind(this)'
 
+'string formatted':
+  'prefix': 'string formatted'
+  'body': '`${}`'
