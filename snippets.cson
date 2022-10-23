@@ -1,0 +1,32 @@
+'.source.js':
+  'import MUI':
+    'prefix': 'import MUI'
+    'body': 'import $1 from "@mui/material/$1";'
+
+  'import nonview/base':
+    'prefix': 'import nonview/base'
+    'body': 'import $1 from "../../nonview/base/$1";'
+
+  'import nonview/constants':
+    'prefix': 'import nonview/constants'
+    'body': 'import $1 from "../../nonview/constants/$1";'
+
+  'import nonview/core':
+    'prefix': 'import nonview/core'
+    'body': 'import $1 from "../../nonview/core/$1";'
+
+  'import view/atoms':
+    'prefix': 'import view/atoms'
+    'body': 'import $1 from "../../view/atoms/$1";'
+
+  'import view/molecules':
+    'prefix': 'import view/molecules'
+    'body': 'import $1 from "../../view/molecules/$1";'
+
+  'import view/organisms':
+    'prefix': 'import view/organisms'
+    'body': 'import $1 from "../../view/organisms/$1";'
+
+  'import view/pages':
+    'prefix': 'import view/pages'
+    'body': 'import $1 from "../../view/pages/$1";'
