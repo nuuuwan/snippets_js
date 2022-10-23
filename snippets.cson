@@ -58,3 +58,8 @@ export default class $1 extends Component {
   }
 }
     """
+
+'this bound function':
+  'prefix': 'this bound function'
+  'body': 'this.$1.bind(this)'
+
