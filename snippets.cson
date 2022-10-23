@@ -30,3 +30,31 @@
   'import view/pages':
     'prefix': 'import view/pages'
     'body': 'import $1 from "../../view/pages/$1";'
+
+  'function atom/molecule':
+    'prefix': 'function atom/molecule'
+    'body': """
+export default function $1({}) {
+  return ();
+}
+    """
+
+  'class organism/page':
+    'prefix': 'class organism/page'
+    'body': """
+import { Component } from "react";
+export default class $1 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  async componentDidMount() {
+
+  }
+
+  render() {
+    return 'TODO-$1';
+  }
+}
+    """
